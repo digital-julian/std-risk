@@ -1,0 +1,9 @@
+name: digitaljuliandata
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - matplotlib~=3.4.3
+    - networkx~=2.6.3
